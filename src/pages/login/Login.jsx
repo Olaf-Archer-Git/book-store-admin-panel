@@ -94,7 +94,7 @@ const Login = () => {
               {message.message === "Rejected" ? "Something Goes Wrong" : ""}
             </p>
 
-            <form action="" onSubmit={formik.handleSubmit}>
+            <form onSubmit={formik.handleSubmit}>
               <TextField
                 fullWidth={true}
                 color="success"

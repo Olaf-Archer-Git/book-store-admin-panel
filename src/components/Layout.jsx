@@ -4,9 +4,9 @@ import Header from "./Header";
 import SideBar from "./Sidebar";
 
 const Layout = () => {
-  const auth = true;
+  const getTokenFromLocalStorage = localStorage?.user;
 
-  return auth ? (
+  return getTokenFromLocalStorage ? (
     <main className="app">
       <SideBar />
       <div className="content">

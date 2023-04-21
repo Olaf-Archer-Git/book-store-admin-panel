@@ -46,7 +46,7 @@ const AddDiscount = () => {
           maxWidth: "750px",
         }}
       >
-        <form action="" onSubmit={formik.handleSubmit}>
+        <form onSubmit={formik.handleSubmit}>
           <Grid container columnSpacing={2} rowSpacing={2}>
             <Grid item xs={12}>
               <TextField
