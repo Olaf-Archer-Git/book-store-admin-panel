@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { setPending, setError } from "../../setReducer";
 import { authService } from "./authService";
 
-//get user from  the localStorage
+//get user from the localStorage
 const getUserFromLocalStorage = localStorage.getItem("user")
   ? JSON.parse(localStorage.getItem("user"))
   : null;
